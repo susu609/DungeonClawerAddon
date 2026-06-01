@@ -1,0 +1,19 @@
+{
+  "format_version": 2,
+
+  "header": {
+    "name": "Dungeon RP",
+    "description": "Dungeon Resource Pack",
+    "uuid": "84b1a0f5-5d04-4331-864c-86aa3b602b26",
+    "version": [1,0,1],
+    "min_engine_version": [1,21,80]
+  },
+
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "9f6a4d12-6c5b-4f0d-a7d5-2f8b5d9c1e44",
+      "version": [1,0,1]
+    }
+  ]
+}
