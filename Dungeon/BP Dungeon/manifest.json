@@ -1,0 +1,38 @@
+{
+  "format_version": 2,
+
+  "header": {
+    "name": "Dungeon BP",
+    "description": "Dungeon Behavior Pack",
+    "uuid": "4e19ff0f-ab64-4ddf-bb5a-ba2bd770fb56",
+    "version": [1,0,1],
+    "min_engine_version": [1,21,80]
+  },
+
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "f5ba776f-ed14-4f42-accf-36afebf2293c",
+      "version": [1,0,1]
+    },
+
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "c53848b8-e224-4285-8dcd-bca19e8552df",
+      "version": [1,0,1]
+    }
+  ],
+
+  "capabilities": [
+    "script_eval"
+  ],
+
+  "dependencies": [
+    {
+     "module_name": "@minecraft/server",
+     "version": "2.0.0"
+    }
+  ]
+}
